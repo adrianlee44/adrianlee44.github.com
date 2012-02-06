@@ -8,3 +8,10 @@ footer{
 footer a, a:hover { color:#dbd9da; }
 
 .center{ text-align: center; }
+.thumbnail{ min-height: 200px; }
+.repo:hover{ cursor: pointer; }
+
+.InfoEm{
+    font-size: 22pt;
+    font-weight: bold;
+}
