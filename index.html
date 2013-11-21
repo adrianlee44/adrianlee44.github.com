@@ -2,28 +2,17 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Adrian's Github frontpage</title>
+    <title>Adrian's Github page</title>
 
-    <!--[if lt IE 9]>
-        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="css/radian.css">
-
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script type="text/javascript" src="js/bootstrap.js"></script>
-    <script type="text/javascript" src="js/script.js"></script>
-
+    <link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.0.4/css/bootstrap-combined.min.css">
+    <link rel="stylesheet" type="text/css" href="app.css">
 </head>
 <body>
     <div class="container header">
         <div class="row">
-            <div class="span5"><h1>Radian Studio</h1></div>
+            <div class="span5"><h1>Adrian Lee</h1></div>
         </div>
-        <p class="lead">
-            A page to list all the Github projects by Adrian.
-        </p>
+        <p class="lead">A page to list all public Github projects.</p>
     </div>
     <div class="container">
         <div class="row">
@@ -32,7 +21,13 @@
                     <li class="span3">
                         <div class="thumbnail">
                             <div class="caption">
-                                <div id="userInfo"></div>
+                                <div id="userInfo">
+                                    <img src="" class="pull-right" rel="avatar_url" />
+                                    <h2 rel="name"></h2>
+                                    <h5 rel="email"></h5>
+                                    <h5 rel="blog"></h5>
+                                    <h5 rel="location"></h5>
+                                </div>
                             </div>
                         </div>
                     </li>
@@ -52,12 +47,14 @@
     <footer>
         <div class="container">
             <div class="row">
-                <div class="span12">Email me at adrian [at] radianstudio [dot] com</div>
-                <div class="span12">Visit my site at <a href="http://www.radianstudio.com">www.radianstudio.com</a></div>
+                <div class="span12">Find me on <a href="http://www.twitter.com/adrianthemole">Twitter</a></div>
                 <div class="span12 center">Built using <a href="http://twitter.github.com/bootstrap">Twitter Bootstrap</a></div>
                 <div class="span12 center">Designed and built by Adrian Lee</div>
             </div>
         </div>
     </footer>
+
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script type="text/javascript" src="app.js"></script>
 </body>
 </html>

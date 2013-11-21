@@ -1,0 +1,7 @@
+.header{ padding: 10px 0px; border-bottom: 2px solid #333333; margin-bottom: 15px; }
+footer{ padding-top:15px; color:#dbd9da; font-size:10pt; background: #403f3f; }
+footer a, a:hover { color:#dbd9da; }
+.center{ text-align: center; }
+.thumbnail{ height: 200px; }
+a.thumbnail{ color: inherit; text-decoration: none; }
+.InfoEm{ font-size: 22pt; font-weight: bold; }
