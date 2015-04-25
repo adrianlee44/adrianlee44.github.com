@@ -28,13 +28,8 @@
             var user = data.data,
                 holder = $("#userInfo");
             holder.children().each(function(index, element){
-                var $ele = $(element),
-                    rel = $ele.attr("rel");
-                if ($ele.prop("tagName") === "IMG"){
-                    $ele.attr("src", user[rel]);
-                } else {
-                    $ele.text(user[rel]);
-                }
+                var rel = $(element).attr("rel");
+                $(element).attr("src", user[rel]);
             });
         });
 
